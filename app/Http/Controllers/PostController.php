@@ -9,7 +9,12 @@ class PostController extends Controller
 
     public function showFirstOnRoot() {
         $posts = Post::first();
-        return view('postsPage') -> with('posts', $posts);
+        if (is_null($posts)){
+            return view('postsPage') ;
+        }else {
+            return view('postsPage')-> with('posts', $posts);
+        }
+
     }
 
     public function index() {

@@ -20,10 +20,12 @@
         <button type="submit" class="btn btn-primary">Save</button>
     </div>
 </form>
-
+<form>
+    <button formaction="http://127.0.0.1:8000/posts">See all posts!</button>
+</form>
 <div>
-    <h1>{{$posts->title}}</h1>
-    <p>{{$posts->text}}</p>
-    <p>{{$posts->post_likes}}</p>
+    <h1>{{($posts-> title ?? "")}}</h1>
+    <p>{{($posts -> text ?? "")}}</p>
+    <p>{{($posts-> post_likes ?? "")}}</p>
 </div>
 </html>
