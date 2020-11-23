@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa0f25d7-32b1-4716-a1da-33a02dfc7d6b" name="Default Changelist" comment="" />
+    <list default="true" id="aa0f25d7-32b1-4716-a1da-33a02dfc7d6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/postIndex.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/28af4c92-af9f-452b-aadc-e93294cbafde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/28af4c92-af9f-452b-aadc-e93294cbafde.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_25_203653_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_25_203653_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +42,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -133,6 +168,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/xampp/php/php.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -140,7 +176,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.start">
@@ -170,14 +206,37 @@
       <option name="presentableId" value="Default" />
       <updated>1603654276113</updated>
       <workItem from="1603654284301" duration="9279000" />
-      <workItem from="1603708895660" duration="8751000" />
+      <workItem from="1603708895660" duration="10035000" />
+      <workItem from="1603725519803" duration="2649000" />
+      <workItem from="1605443031509" duration="1381000" />
+      <workItem from="1605457794483" duration="1008000" />
+      <workItem from="1605984179895" duration="4989000" />
+      <workItem from="1606056206155" duration="2699000" />
+      <workItem from="1606151457844" duration="7582000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="540" y="180" key="#CLI_Interpreters" timestamp="1605993837662">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="180" key="#CLI_Interpreters/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1605993837662" />
+    <state x="2460" y="192" key="#CLI_Interpreters/0.0.1920.1080/1920.7.1920.1080@1920.7.1920.1080" timestamp="1605457991724" />
     <state x="770" y="404" key="#Composer" timestamp="1603654380093">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -186,10 +245,16 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="187" key="#PHP/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1603654424512" />
-    <state x="670" y="148" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603658648255">
+    <state x="670" y="148" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605993954845">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="670" y="148" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1603658648255" />
+    <state x="670" y="148" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1605993954845" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1605993538475">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1605993538475" />
+    <state x="2660" y="287" key="FileChooserDialogImpl/0.0.1920.1050/1920.7.1920.1050@1920.7.1920.1050" timestamp="1603724583451" />
+    <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.7.1920.1080@1920.7.1920.1080" timestamp="1605457987670" />
     <state width="1293" height="285" key="GridCell.Tab.0.bottom" timestamp="1603658712501">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -218,15 +283,16 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1603662347711" />
-    <state x="2381" y="177" key="SettingsEditor" timestamp="1603717481040">
-      <screen x="1920" y="7" width="1920" height="1050" />
-    </state>
-    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1603654503464" />
-    <state x="2381" y="177" key="SettingsEditor/0.0.1920.1050/1920.7.1920.1050@1920.7.1920.1050" timestamp="1603717481040" />
-    <state x="859" y="402" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1603657823677">
+    <state x="461" y="170" key="SettingsEditor" timestamp="1605993838122">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="859" y="402" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1603657823677" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1605993838122" />
+    <state x="2381" y="177" key="SettingsEditor/0.0.1920.1050/1920.7.1920.1050@1920.7.1920.1050" timestamp="1603717481040" />
+    <state x="2381" y="182" key="SettingsEditor/0.0.1920.1080/1920.7.1920.1080@1920.7.1920.1080" timestamp="1605457996133" />
+    <state x="859" y="402" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605993986397">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="859" y="402" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1605993986397" />
     <state x="798" y="412" width="324" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603655866111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -239,9 +305,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="654" y="182" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1603661763784" />
-    <state x="616" y="243" key="run.anything.popup" timestamp="1603654508521">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2536" y="250" key="run.anything.popup" timestamp="1606056259466">
+      <screen x="1920" y="7" width="1920" height="1050" />
     </state>
-    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1603654508521" />
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.7.1920.1050@0.0.1920.1050" timestamp="1605994825070" />
+    <state x="2536" y="250" key="run.anything.popup/0.0.1920.1050/1920.7.1920.1050@1920.7.1920.1050" timestamp="1606056259466" />
   </component>
 </project>

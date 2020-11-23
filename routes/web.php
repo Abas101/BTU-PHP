@@ -1,6 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,18 +16,36 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', [\App\Http\Controllers\PostController::class, 'showFirstOnRoot']);
+Route::get('/', [PostController::class, 'showFirstOnRoot']) ->middleware("auth");
 
-Route::get('/posts', [\App\Http\Controllers\PostController::class, 'index']);
+Route::get('/posts', [PostController::class, 'index']);
 
-Route::get('posts/{id}', [\App\Http\Controllers\PostController::class, 'show']);
+Route::get("/myPosts", [PostController::class, 'myPosts']) ->name("my_posts") ->middleware('auth');
 
-Route::get('/posts/create', [\App\Http\Controllers\PostController::class, 'create']) ->name('posts.create');
+Route::get('/posts/{id}', [PostController::class, 'show']);
 
-Route::Post('/posts/save_post', [\App\Http\Controllers\PostController::class, 'save']) -> name('posts.save');
+Route::get('/posts/create', [PostController::class, 'create']) ->name('posts.create');
 
-Route::get('/posts/{id}/edit', [\App\Http\Controllers\PostController::class, 'edit']) -> name('posts.edit');
+Route::get("/user/register", [LoginController::class, 'register']) ->name('register');
 
-Route::put('/posts/{id}/update', [\App\Http\Controllers\PostController::class, 'update']) -> name('posts.update');
+Route::get("/user/login", [LoginController::class, "login"]) -> name("login");
 
-Route::delete('/posts/{id}/delete', [\App\Http\Controllers\PostController::class, 'delete']) -> name('posts.delete');
+Route::get('/posts/{id}/edit', [PostController::class, 'edit']) -> name('posts.edit');
+
+Route::get('/user/logout', [LoginController::class, "logOut"]) -> name('logout');
+
+Route::Post('/posts/save_post', [PostController::class, 'save']) -> name('posts.save');
+
+Route::post("/login/post", [LoginController::class, "postLogin"]) -> name("post.login");
+
+Route::post("/user/logout", [LoginController::class, 'logout']) ->name('logout');
+
+Route::post("/user/post-register", [LoginController::class, 'postRegister']) ->name('post.register');
+
+Route::put('/posts/{id}/update', [PostController::class, 'update']) -> name('posts.update');
+
+Route::delete('/posts/{id}/delete', [PostController::class, 'delete']) -> name('posts.delete');
+
+Route::resource('posts', PostController::class) ->middleware('auth');
+
+

@@ -23,4 +23,7 @@
         <button type="submit" class="btn btn-primary">Save</button>
     </div>
 </form>
+<form>
+    <button formaction="127.0.0.0:8000/posts"> go back</button>
+</form>
 </html>

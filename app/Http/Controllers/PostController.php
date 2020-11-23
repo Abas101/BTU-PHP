@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 use App\Models\Post;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
@@ -29,16 +31,20 @@ class PostController extends Controller
     }
 
     public function create() {
+        $tags = Tag::all();
         return view(null);
     }
 
     public function save(Request $request) {
+        $id = Auth::id();
         $post = new Post($request->all());
         $post->save();
+        $post -> tags()->attach($request->tags);
         return redirect()->back();
     }
 
     public function edit($id) {
+        $tags = Tag::all();
         $post = Post::findOrFail($id);
         return view('edit') -> with('post', $post);
     }
@@ -58,5 +64,12 @@ class PostController extends Controller
         $post = Post::findOrFail($id);
         $post -> delete();
         return redirect('/posts');
+    }
+
+    public function myPosts() {
+        $id = Auth::id();
+        $user = User::findOrFail($id);
+        $posts = $user -> posts;
+        return view('postIndex') -> with('posts', $posts);
     }
 }
